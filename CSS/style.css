@@ -1,11 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .column {
   float: left;
   width: 25%;
   /* padding: 2%; */
 }
 
+/* .clearfix {
+  clear: both;
+} */
+
 .row::after {
   content: "";
   display: table;
   clear: both;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+}
+
+.menu {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.like-button {
+  /* height: 50px; */
+  width: 100px;
+  background-color: rgb(0, 183, 255);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #efefef;
+  margin: 1rem 0;
+}
+
+/* .button,
+button,
+input[type="submit"] {
+  width: auto;
+  display: block;
+} */
+
+footer {
+  padding: 10px;
+}
+
+iframe {
+  float: right;
 }
